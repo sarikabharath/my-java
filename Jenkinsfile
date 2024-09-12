@@ -25,7 +25,7 @@ pipeline {
     }
     post {
         always {
-            mail to: 'javabatch.2022@gmail.com',
+            mail to: 'sarikaprakashb2gmail.com',
                  subject: 'Build Notification',
                  body: 'Please find the build results below:\n\nBuild Result: ${build success}'
         }
